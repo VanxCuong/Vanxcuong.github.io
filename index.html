@@ -7,11 +7,21 @@
 <link rel="stylesheet" href="vendor/bootstrap.css">
 <link rel="stylesheet" href="vendor/font-awesome.css">
 <link rel="stylesheet" href="1.css"> 
+<script type="text/javascript" src="vendor/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="1.js"></script>
 
 </head>
 <body >
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.10&appId=854420028069993';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	<div class="header clearfix">
-		<div class="navbar navbar-light bg-faded navbar-fixed-top">
+		<div class="navbar navbar-light bg-faded fixed-top">
 			<div class="container">
 				<a class="navbar-brand pull-left" alt="LOGO" href="#">LOGO</a>
 				<ul class="nav pull-right">
@@ -44,10 +54,29 @@
 				<a href="#" class="btn btn-outline-success">Click </a>
 			</div>
 		</div>
+		<div class="nutdichuyen"></div>
 	</div> <!-- end main -->
-
-
-<script type="text/javascript" src="1.js"></script>
+	<div class="khoi2" id="exp">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-sm-center">
+					<h3>Kinh Nghiệm</h3>
+				</div>
+			</div>
+		</div>
+	</div>
 	
+	<div class="comments">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>Phản hồi</h1>
+					<div class="commentfb">
+						<div class="fb-comments" data-href="https://vanxcuong.github.io/" data-width="576" data-numposts="5"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

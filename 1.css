@@ -1,5 +1,36 @@
 *{margin:0;padding:0;}
 
+.nutdichuyen {
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    border: 1px solid #fff;
+    left: 50%;
+    margin-left: -10px;
+    bottom: 6%;
+    border-radius: 13px;
+    transition: 0.4s all ease;
+    cursor: pointer;
+}
+
+.nutdichuyen:hover {
+    bottom: 8%;
+}
+
+.nutdichuyen:before {
+    content: "";
+    position: absolute;
+    height: 6px;
+    left: 50%;
+    border: white solid 1px;
+    bottom: 62%;
+    margin-left: -0.5px;
+}
+
+.khoi2 {
+    height: 600px;
+}
+
 .info p {
     font-size: 16px;
     color: aliceblue;
@@ -81,5 +112,4 @@ a.navbar-brand.pull-left {
     text-align: center;
     display: block;
     padding: 10px 0 0 0;
-}
 }
